@@ -35,4 +35,4 @@ runs:
       with:
         context: ${{ inputs.path }}
         push: true
-        tags: ${{ inputs.repositorio }}:${{ inputs.version }}
+        tags: ${{ inputs.repositorio }}:latest, ${{ inputs.repositorio }}:${{ inputs.version }}
